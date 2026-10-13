@@ -1,0 +1,5 @@
+# <script> <sha256> <host-name>[,<host-name>...] <installed path>
+# Host names come from HOSTS. Run `script-drift-check.sh --regen` to fill the shas.
+cron-report.sh 0000000000000000000000000000000000000000000000000000000000000000 local,web1 /usr/local/bin/cron-report.sh
+notify.sh 0000000000000000000000000000000000000000000000000000000000000000 local,web1 /usr/local/bin/notify.sh
+lib.sh 0000000000000000000000000000000000000000000000000000000000000000 local,web1 /usr/local/bin/lib.sh
